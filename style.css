@@ -22,6 +22,14 @@
   flex-direction: column;
 }
 
+.contact-form form .name-field label,
+.contact-form form .city-field label,
+.contact-form form .email-field label,
+.contact-form form .phone-field label {
+  margin: 1rem 0 0;
+  font-weight: 600;
+}
+
 .contact-form form .name-field input,
 .contact-form form .city-field input,
 .contact-form form .email-field input,
@@ -49,7 +57,7 @@
   border-radius: 8px;
   cursor: pointer;
   background-color: #5071bd;
-  color: #ffffffb8;
+  color: #ffffffed;
   font-size: 20px;
   font-weight: 500;
 }
@@ -65,7 +73,7 @@
   border-radius: 12px;
   cursor: pointer;
   background-color: #5071bd;
-  color: #ffffffb8;
+  color: #ffffffed;
   font-size: 20px;
   font-weight: 500;
   margin-right: 82px;
@@ -80,7 +88,7 @@
   border-radius: 12px;
   cursor: pointer;
   background-color: #5071bd;
-  color: #ffffffb8;
+  color: #ffffffed;
   font-size: 20px;
   font-weight: 500;
   margin-top: 2rem;
